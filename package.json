@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webTests": "npx playwright test ./tests/RahulShettyCourse/ --project=chromium --grep @Web --reporter=allure-playwright",
+    "Trial": "npx playwright test --grep @Trial  --project=chromium",
+    "regression": "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.1.0",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^3.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

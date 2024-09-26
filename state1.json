@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "C5CB01FAA3106DA0D5D6C17676D029DBD4D33B92886BE1490DA12CD15061F0A97F3F2B74D72BB053CEAB15078E2D06F05BF31A5FE872728012A8BC88BAA1FC87A91653D1C22DF917723D25D3E209D011A77A95996728509BA166932E909DFC3DEC43D19195D808C6E803675198EFE116B9C058E6A0C5A1834F01580700412952",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/authenticationendpoint",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "YSC",
+      "value": "svrL7cTRb18",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "rz75VSG_X0I",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1740394916.668289,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJJThIEGgAgYg%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1740394916.668434,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "517=vNvZ1FMHXBlOSa5IVj5YQRDjgTbERjbYFSV9UO7Ut7KCW-ncf1dp-xPVDey1ff4u-Oxqqmm2MIBnWyTnL8TGfb6xOy0hSGxtZ3eEZcNUyK5QVuhft-Dw6qRfkcVm0sMHmjXzX0ICnLH-qlEvMm0RSj_vd6pylZe7rDEE0BZecfqP3V-V",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1740654123.248104,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "commonAuthId",
+      "value": "f8b89d14-9ee3-41dd-b0a6-2b748e46ea56",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "QuzwAn9I+7MqxLG+12fYAVY78s37UFDCymJIDoIu3n9cfrpf7gWrjc71RG1xWxG8Njbhs9BLbE2q5wZzXwnZtwVp0DPmZJHAYXtx3ZrVwoR86eQtx/wDsByVGojz",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/",
+      "expires": 1725447727.611142,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "QuzwAn9I+7MqxLG+12fYAVY78s37UFDCymJIDoIu3n9cfrpf7gWrjc71RG1xWxG8Njbhs9BLbE2q5wZzXwnZtwVp0DPmZJHAYXtx3ZrVwoR86eQtx/wDsByVGojz",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/",
+      "expires": 1725447727.611304,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "atbv",
+      "value": "bb665369-fc6a-4da5-99a6-da3517ee423f",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "opbs",
+      "value": "4098581d-55e7-4a2d-b17d-ddde7e1aed71",
+      "domain": "uat-accounts.bharti-axalife.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "2h3jysm4esprath5j0kgwqfe",
+      "domain": "msell-uat.bhartiaxa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
