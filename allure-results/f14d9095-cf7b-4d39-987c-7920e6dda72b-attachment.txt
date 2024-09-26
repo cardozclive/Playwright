@@ -1,3 +1,0 @@
-Admin
-admin123
-Employee Id already exists
