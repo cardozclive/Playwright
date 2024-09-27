@@ -24,7 +24,7 @@ test('EA App testing', async ({ browser }, testinfo) => {
     await page.getByRole('button', {name : 'Create'}).click();
     // await page.pause();
     
-    const EmpList = await page.locator('table.table tbody tr td');
+    const EmpList = await page.locator('table.table tbody');
     const EmpCount = await EmpList.count();
     console.log(EmpCount);
 
