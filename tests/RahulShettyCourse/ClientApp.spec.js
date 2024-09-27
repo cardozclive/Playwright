@@ -46,6 +46,7 @@ test("Practice2", async({browser})=>
     // as there are chances that the text of some elements may get changed in the future
     await page.locator("[value = '4542 9931 9292 2293']").clear();
     await page.locator("[value = '4542 9931 9292 2293']").fill("1234 5678 9874 5632");
+    
     const dropdown = await page.locator("select.input.ddl").first();
     dropdown.selectOption("08");
     const dropdown2 = await page.locator("select.input.ddl").last();

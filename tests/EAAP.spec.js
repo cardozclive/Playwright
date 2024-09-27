@@ -13,6 +13,29 @@ test('EA App testing', async ({ browser }, testinfo) => {
     await page.getByRole('button', { name: 'log in' }).click();
     await page.locator('a[href="/Employee"]').click();
     await page.getByRole('link', { name: 'Create New' }).click();
+    await page.locator('#Name').fill('Clive');
+    
+    await page.locator('#Name').press('Tab');
+    await page.getByLabel('Salary').fill('1000');
+    await page.getByLabel('DurationWorked').fill('5');
+    const dropdown = await page.locator('[id="Grade"]');
+    dropdown.selectOption('Senior');
+    await page.getByLabel('Email').pressSequentially('yo@yopmail.com');
+    await page.getByRole('button', {name : 'Create'}).click();
+    // await page.pause();
+    
+    const EmpList = await page.locator('table.table tbody tr td');
+    const EmpCount = await EmpList.count();
+    console.log(EmpCount);
+
+    for(let i = 0; i<EmpCount; i++){
+
+        if(await EmpList.nth(i).textContent() === 'Ramesh') 
+        {
+            console.log('User is present');
+            break;
+        }
+    }
 
     // Add the URL to the page using JavaScript before taking a screenshot
     await page.evaluate((url) => {
@@ -33,7 +56,7 @@ test('EA App testing', async ({ browser }, testinfo) => {
     */
     await page.screenshot({ path: `Screenshot/${testinfo.title}.png`, fullPage: true });
 
-    await page.pause();
+    // await page.pause();
 
 }
 )
