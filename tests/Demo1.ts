@@ -32,7 +32,7 @@ class LoginPage
     userName : Locator;
     password : Locator;
 
-    constructor(page:anygit)
+    constructor(page:any)
     {
         this.page = page;
         this.signInbutton= page.locator("[value='Login']");
