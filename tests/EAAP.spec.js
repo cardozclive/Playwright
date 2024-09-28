@@ -24,13 +24,13 @@ test('EA App testing', async ({ browser }, testinfo) => {
     await page.getByRole('button', {name : 'Create'}).click();
     // await page.pause();
     
-    const EmpList = await page.locator('table.table tbody');
+    const EmpList = await page.locator('table.table tbody tr');
     const EmpCount = await EmpList.count();
     console.log(EmpCount);
 
     for(let i = 0; i<EmpCount; i++){
 
-        if(await EmpList.nth(i).textContent() === 'Ramesh') 
+        if(await EmpList.nth(i).locator('td').textContent() === 'Ramesh') 
         {
             console.log('User is present');
             break;
