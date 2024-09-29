@@ -1,0 +1,163 @@
+27
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 32875,
+  [Symbol(trigger_async_id_symbol)]: 32874,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 32906,
+  [Symbol(trigger_async_id_symbol)]: 32905,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 32937,
+  [Symbol(trigger_async_id_symbol)]: 32936,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 32968,
+  [Symbol(trigger_async_id_symbol)]: 32967,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 32999,
+  [Symbol(trigger_async_id_symbol)]: 32998,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33030,
+  [Symbol(trigger_async_id_symbol)]: 33029,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33061,
+  [Symbol(trigger_async_id_symbol)]: 33060,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33092,
+  [Symbol(trigger_async_id_symbol)]: 33091,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33123,
+  [Symbol(trigger_async_id_symbol)]: 33122,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33154,
+  [Symbol(trigger_async_id_symbol)]: 33153,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33185,
+  [Symbol(trigger_async_id_symbol)]: 33184,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33216,
+  [Symbol(trigger_async_id_symbol)]: 33215,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33247,
+  [Symbol(trigger_async_id_symbol)]: 33246,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33278,
+  [Symbol(trigger_async_id_symbol)]: 33277,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33309,
+  [Symbol(trigger_async_id_symbol)]: 33308,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33340,
+  [Symbol(trigger_async_id_symbol)]: 33339,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33371,
+  [Symbol(trigger_async_id_symbol)]: 33370,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33402,
+  [Symbol(trigger_async_id_symbol)]: 33401,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33433,
+  [Symbol(trigger_async_id_symbol)]: 33432,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33464,
+  [Symbol(trigger_async_id_symbol)]: 33463,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33495,
+  [Symbol(trigger_async_id_symbol)]: 33494,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33526,
+  [Symbol(trigger_async_id_symbol)]: 33525,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33557,
+  [Symbol(trigger_async_id_symbol)]: 33556,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33588,
+  [Symbol(trigger_async_id_symbol)]: 33587,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33619,
+  [Symbol(trigger_async_id_symbol)]: 33618,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33650,
+  [Symbol(trigger_async_id_symbol)]: 33649,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 33681,
+  [Symbol(trigger_async_id_symbol)]: 33680,
+  [Symbol(kResourceStore)]: undefined
+}

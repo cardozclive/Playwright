@@ -1,0 +1,170 @@
+28
+locator('div.container.body-content:nth-child(2) table.table:nth-child(2) tbody:nth-child(1) tr td:nth-child(1)')
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34591,
+  [Symbol(trigger_async_id_symbol)]: 34590,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34622,
+  [Symbol(trigger_async_id_symbol)]: 34621,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34653,
+  [Symbol(trigger_async_id_symbol)]: 34652,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34684,
+  [Symbol(trigger_async_id_symbol)]: 34683,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34715,
+  [Symbol(trigger_async_id_symbol)]: 34714,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34746,
+  [Symbol(trigger_async_id_symbol)]: 34745,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34777,
+  [Symbol(trigger_async_id_symbol)]: 34776,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34808,
+  [Symbol(trigger_async_id_symbol)]: 34807,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34839,
+  [Symbol(trigger_async_id_symbol)]: 34838,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34870,
+  [Symbol(trigger_async_id_symbol)]: 34869,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34901,
+  [Symbol(trigger_async_id_symbol)]: 34900,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34932,
+  [Symbol(trigger_async_id_symbol)]: 34931,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34963,
+  [Symbol(trigger_async_id_symbol)]: 34962,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 34994,
+  [Symbol(trigger_async_id_symbol)]: 34993,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35025,
+  [Symbol(trigger_async_id_symbol)]: 35024,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35056,
+  [Symbol(trigger_async_id_symbol)]: 35055,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35087,
+  [Symbol(trigger_async_id_symbol)]: 35086,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35118,
+  [Symbol(trigger_async_id_symbol)]: 35117,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35149,
+  [Symbol(trigger_async_id_symbol)]: 35148,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35180,
+  [Symbol(trigger_async_id_symbol)]: 35179,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35211,
+  [Symbol(trigger_async_id_symbol)]: 35210,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35242,
+  [Symbol(trigger_async_id_symbol)]: 35241,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35273,
+  [Symbol(trigger_async_id_symbol)]: 35272,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35304,
+  [Symbol(trigger_async_id_symbol)]: 35303,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35335,
+  [Symbol(trigger_async_id_symbol)]: 35334,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35366,
+  [Symbol(trigger_async_id_symbol)]: 35365,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35397,
+  [Symbol(trigger_async_id_symbol)]: 35396,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 35428,
+  [Symbol(trigger_async_id_symbol)]: 35427,
+  [Symbol(kResourceStore)]: undefined
+}
