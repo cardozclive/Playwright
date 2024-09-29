@@ -24,19 +24,21 @@ test('EA App testing', async ({ browser }, testinfo) => {
     await page.getByRole('button', {name : 'Create'}).click();
     // await page.pause();
     
-    const EmpList = await page.locator('table.table tbody tr');
+    const EmpList = await page.locator('div.container.body-content:nth-child(2) table.table:nth-child(2) tbody:nth-child(1) tr');
     const EmpCount = await EmpList.count();
-    console.log(EmpCount);
-
+    await console.log(EmpCount);
+    // await console.log(EmpList);
+    
     for(let i = 0; i<EmpCount; i++){
-
-        if(await EmpList.nth(i).locator('td').textContent() === 'Ramesh') 
+        await console.log(EmpList.nth(i).locator('td:nth-child(1)').textContent());
+        break;
+        if(await EmpList.nth(i).textContent() === 'Clive') 
         {
-            console.log('User is present');
+            await console.log('User is present');
             break;
         }
     }
-
+/*
     // Add the URL to the page using JavaScript before taking a screenshot
     await page.evaluate((url) => {
         const urlOverlay = document.createElement('div');
@@ -56,7 +58,6 @@ test('EA App testing', async ({ browser }, testinfo) => {
     */
     await page.screenshot({ path: `Screenshot/${testinfo.title}.png`, fullPage: true });
 
-    // await page.pause();
 
 }
 )
