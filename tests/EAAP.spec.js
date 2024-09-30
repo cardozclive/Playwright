@@ -3,18 +3,26 @@ const { test, expect } = require('@playwright/test')
 test('EA App testing', async ({ browser }, testinfo) => {
     const context = await browser.newContext();
     const page = await context.newPage();
+
+    //Openning the webpage
     await page.goto('http://eaapp.somee.com/');
     const currentUrl = page.url();
 
+    //login in with the correct credentials
     await page.locator('#loginLink').click();
     await page.locator('#UserName').fill('admin');
     await page.locator('[type="password"]').fill('password');
     await page.getByLabel('Remember me').click();
     await page.getByRole('button', { name: 'log in' }).click();
+
+    //Clicked in Employee list link in the header
     await page.locator('a[href="/Employee"]').click();
+
+    //Clicked on Create New link
     await page.getByRole('link', { name: 'Create New' }).click();
-    await page.locator('#Name').fill('Clive');
-    
+
+    //Adding the Employee data
+    await page.locator('#Name').fill('Raju');
     await page.locator('#Name').press('Tab');
     await page.getByLabel('Salary').fill('1000');
     await page.getByLabel('DurationWorked').fill('5');
@@ -22,19 +30,19 @@ test('EA App testing', async ({ browser }, testinfo) => {
     dropdown.selectOption('Senior');
     await page.getByLabel('Email').pressSequentially('yo@yopmail.com');
     await page.getByRole('button', {name : 'Create'}).click();
-    // await page.pause();
     
-    const EmpList = await page.locator('div.container.body-content:nth-child(2) table.table:nth-child(2) tbody:nth-child(1) tr');
-    const EmpCount = await EmpList.count();
-    await console.log(EmpCount);
-    // await console.log(EmpList);
-    
-    for(let i = 0; i<EmpCount; i++){
-        await console.log(EmpList.nth(i).locator('td:nth-child(1)').textContent());
-        break;
-        if(await EmpList.nth(i).textContent() === 'Clive') 
+    //Iterating through the list of employees & printing the names in console. Also searching through the list of employees
+    //and printing a message in console User is present if the record is found
+    const empList = await page.locator('div.container.body-content:nth-child(2) table.table:nth-child(2) tbody:nth-child(1) tr td:nth-child(1)');
+    const empCount = await empList.count();
+    await console.log(empCount);
+
+    for(let i = 0; i<empCount; i++){
+        const textContent = await empList.nth(i).innerText();
+        console.log(textContent);
+        if(textContent === 'Ramesh') 
         {
-            await console.log('User is present');
+            console.log('User is present');
             break;
         }
     }
@@ -52,13 +60,15 @@ test('EA App testing', async ({ browser }, testinfo) => {
         document.body.appendChild(urlOverlay);
     }, currentUrl);
 
-
-    /*  Below code is written to take SS with name of the test. In this case the name of the test is "EA App Testing"
+    // Below code is written to take SS with name of the test. In this case the name of the test is "EA App Testing"
     await page.screenshot({path: `Screenshot/${testinfo.title}.png`, fullPage: true});
-    */
-    await page.screenshot({ path: `Screenshot/${testinfo.title}.png`, fullPage: true });
+*/
 
-
+    const screenshot = await page.screenshot();
+    await testinfo.attach('screenshot', {
+        body : screenshot, contentType: 'image/png'
+    });
+    
 }
 )
 
