@@ -1,12 +1,12 @@
 const { test, expect } = require('@playwright/test')
 
-test('EA App testing', async ({ browser }, testinfo) => {
+test('EA App testing', async ({ browser }, ) => {
     const context = await browser.newContext();
     const page = await context.newPage();
 
     //Openning the webpage
     await page.goto('http://eaapp.somee.com/');
-    const currentUrl = page.url();
+    //const currentUrl = page.url();
 
     //login in with the correct credentials
     await page.locator('#loginLink').click();
@@ -64,10 +64,6 @@ test('EA App testing', async ({ browser }, testinfo) => {
     await page.screenshot({path: `Screenshot/${testinfo.title}.png`, fullPage: true});
 */
 
-    const screenshot = await page.screenshot();
-    await testinfo.attach('screenshot', {
-        body : screenshot, contentType: 'image/png'
-    });
     
 }
 )

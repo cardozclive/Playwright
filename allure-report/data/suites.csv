@@ -1,2 +1,7 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","10188","EA App testing","firefox","Mon Sep 30 12:46:04 IST 2024","passed","Mon Sep 30 12:46:15 IST 2024","","EAAP.spec.js","",""
+"","9807","EA App testing","Google Chrome","Tue Oct 01 12:17:31 IST 2024","passed","Tue Oct 01 12:17:41 IST 2024","","EAAP.spec.js","",""
+"","32396","EA App testing","webkit","Tue Oct 01 12:17:02 IST 2024","passed","Tue Oct 01 12:17:35 IST 2024","","EAAP.spec.js","",""
+"","19786","EA App testing","Microsoft Edge","Tue Oct 01 12:17:07 IST 2024","passed","Tue Oct 01 12:17:27 IST 2024","","EAAP.spec.js","",""
+"","54311","EA App testing","chromium","Tue Oct 01 12:16:03 IST 2024","passed","Tue Oct 01 12:16:57 IST 2024","","EAAP.spec.js","",""
+"","10276","EA App testing","Mobile Chrome","Tue Oct 01 12:27:30 IST 2024","broken","Tue Oct 01 12:27:40 IST 2024","","EAAP.spec.js","",""
+"","54012","EA App testing","firefox","Tue Oct 01 12:16:03 IST 2024","passed","Tue Oct 01 12:16:57 IST 2024","","EAAP.spec.js","",""
