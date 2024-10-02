@@ -64,7 +64,9 @@ test('EA App testing', async ({ browser }, ) => {
     await page.screenshot({path: `Screenshot/${testinfo.title}.png`, fullPage: true});
 */
 
-    
+// const screenshot = await page.screenshot({path: './Screenshot/screenshot1.png'});
+    // await expect(page).toHaveScreenshot();
+    expect(await page.screenshot()).toMatchSnapshot('Screenshot.png');
 }
 )
 
