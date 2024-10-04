@@ -22,3 +22,5 @@ const users = [
   }
   const searchName = "Bob";
   printAgeAndSalary(users, searchName);
+
+  

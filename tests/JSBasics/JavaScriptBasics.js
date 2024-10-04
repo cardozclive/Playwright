@@ -6,11 +6,14 @@ var c = 'Rahul Shetty';
 let d = 254.25
 let required = true;
 console.log(a);
+//typeof is used to identity the data type of the variable
 console.log(typeof (a));
 console.log(typeof (b));
 console.log(typeof (d));
 console.log(typeof (required));
 var c = a + d;
+
+// we cannot redeclare variable with let keyword but possible with var
 console.log(c);
 console.log(typeof (c));
 console.log(!required);

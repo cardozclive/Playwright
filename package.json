@@ -5,7 +5,8 @@
   "scripts": {
     "webTests": "npx playwright test ./tests/RahulShettyCourse/ --project=chromium --grep @Web --reporter=allure-playwright",
     "Trial": "npx playwright test --grep @Trial  --project=chromium",
-    "regression": "npx playwright test --project=chromium"
+    "regression": "npx playwright test --project=chromium",
+    "Cucumber": "npx cucumber-js features/Ecommerce.feature --parallel 2  --exit --format html:cucumber-report.html  --retry 1"
   },
   "keywords": [],
   "author": "",
