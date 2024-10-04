@@ -60,12 +60,16 @@ console.log(marks.indexOf(60));
 console.log(marks.includes(120)); // this will return value as false as 120 is not present in our array
 subMarks = marks.slice(2, 5);// this will return array from 3rd index to 4th index i.e. 30 to 45
 console.log(subMarks);
+
+//Adding all the values
 var sum = 0;
 for (let i = 0; i < marks.length; i++) {
     // console.log(marks[i]);
     sum = sum + marks[i];
 }
 console.log(sum);
+
+//Another way of adding values together
 let total = marks.reduce((sum, mark) => sum + mark, 0);
 console.log(total);
 

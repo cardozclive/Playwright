@@ -75,5 +75,12 @@ for (let k = 1; k <= 100; k++) {
 }
 
 let divide = (a , b) => a / b;
-
 console.log(divide (12 , 6))
+
+console.log('******************');
+
+var Name = 'Clive'
+var letters = Name.split('');
+console.log(letters.reverse());
+
+
