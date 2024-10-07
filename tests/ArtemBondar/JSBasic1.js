@@ -83,4 +83,50 @@ var Name = 'Clive'
 var letters = Name.split('');
 console.log(letters.reverse());
 
+console.log('**************');
+
+
+let firstName = 'Clive'
+console.log(firstName);
+let letters1 = firstName.split('');
+
+for(let i = letters1.length; i >= 0; i-- )
+{
+  console.log(firstName[i]);
+}
+
+
+console.log('------------------------')
+var name1 = ['C', 'l', 'i', 'v', 'e']
+console.log(name1.reverse());
+
+const str = 'Clive';
+const charCount = {};
+
+for (const char of str) {
+    const lowerChar = char.toLowerCase();
+    if (charCount[lowerChar]) {
+        charCount[lowerChar]++;
+    } else {
+        charCount[lowerChar] = 1;
+    }
+}
+
+console.log(charCount);
+
+function countCharacterOccurrences(str) {
+    const charCount = {};
+  
+    for (let char of str) {
+      charCount[char] = (charCount[char] || 0) + 1;
+    }
+  
+    return charCount;   
+  
+  }
+  
+  const stringValue = 'Clive';
+  const characterCounts = countCharacterOccurrences(stringValue);
+  
+  console.log(characterCounts);
 

@@ -96,7 +96,7 @@ console.log(totalVal);
 
 let scores1 = [12, 13, 14, 15, 16, 17, 18];
 const scores1Total = scores1.filter(scores => scores % 2 == 0).map(scores => scores*3).reduce((sum,val)=>sum+val,0)
-                //12, 14, 16, 18               36, 42, 48, 54              180
+                //12, 14, 16, 18                                     36, 42, 48, 54               180
 console.log("Scores1 total "+scores1Total);
 
 var fruits = ["Banana", "Mango", "Gojiberry", "Blackcurrent", "Apple"];
