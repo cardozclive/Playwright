@@ -1,7 +1,7 @@
 # Who am I? 📖
-Hi, My name is Clive Cardoz. I have total 4.11 years of experience in Software testing out of which I have 1.5 years experience in Automation testing using Playwright JavaScript Language, API Testing using postman and Manual testing of Native & web mobile applications on both Android & iOS
+Hi, My name is Clive Cardoz. I have total ***4.11 years*** of experience in Software testing out of which I have ***1.5 years*** experience in Automation testing using Playwright JavaScript Language, API Testing using postman and Manual testing of Native & web mobile applications on both Android & iOS
 
-You can add me on [Linkedin](https://www.linkedin.com/in/clivecardoz/)
+You can add me on *[Linkedin](https://www.linkedin.com/in/clivecardoz/)*
 
 ---
 # About the repository ✒️
